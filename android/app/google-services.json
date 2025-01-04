@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "663285150032",
+    "project_id": "chirp1207-5947d",
+    "storage_bucket": "chirp1207-5947d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663285150032:android:7afab46b28eb6bd3b3bc55",
+        "android_client_info": {
+          "package_name": "com.example.chirp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhSHGuUAVDEPMJHMHoHBCvUem24Rnv15g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
