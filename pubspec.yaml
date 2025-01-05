@@ -36,16 +36,6 @@ dependencies:
   cupertino_icons: ^1.0.8
   google_fonts: ^6.2.1
   glitcheffect: ^1.1.1
-  get: ^4.6.6
-  firebase_auth: ^5.3.4
-  firebase_core: ^3.9.0
-  cloud_firestore: ^5.6.0
-  firebase_storage: ^12.3.7
-  cloudinary_flutter: ^1.0.0
-  cloudinary_url_gen: ^1.0.0
-  http: ^1.2.2
-  image_picker: ^1.1.2
-
 
 dev_dependencies:
   flutter_test:

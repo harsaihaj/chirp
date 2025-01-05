@@ -1,4 +1,3 @@
-import 'package:chirp/controller/auth_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:glitcheffect/glitcheffect.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -35,11 +34,6 @@ class SignupScreen extends StatelessWidget {
                 ),),
               ),
           
-              InkWell(
-                onTap: (){
-                  AuthController.instance.pickImage();
-                },
-                child: Stack(
                   children: [
                     const CircleAvatar(
                       backgroundImage: NetworkImage("https://i.pinimg.com/236x/90/de/25/90de257fdac14d35d66a81ab8e282cad.jpg"), radius: 60,
@@ -55,7 +49,6 @@ class SignupScreen extends StatelessWidget {
                             child: Icon(Icons.edit_rounded, size: 30,color: Colors.black,)))
                   ],
                 ),
-              ),
           
               SizedBox(height: 20,),
               Container(
@@ -79,10 +72,6 @@ class SignupScreen extends StatelessWidget {
               Container(
                   width: MediaQuery.of(context).size.width/3,
           
-                  child: ElevatedButton(onPressed: (){
-                    AuthController.instance.SignUp(_usernamecontroller.text, _emailcontroller.text, _setpasswordcontroller.text , AuthController.instance.proimg);
-
-                  }, child: Text("Sign Up"))),
           
           
             ],
