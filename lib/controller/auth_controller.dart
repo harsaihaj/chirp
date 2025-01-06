@@ -10,14 +10,14 @@ import 'package:image_picker/image_picker.dart';
 
 class AuthController extends GetxController{
   static AuthController instance = Get.find();
-File? proimg;
+  File? proimg;
 
   pickImage()async{
-final image = await ImagePicker().pickImage(source: ImageSource.gallery);
-if(image == null) return;
+    final image = await ImagePicker().pickImage(source: ImageSource.gallery);
+    if(image == null) return;
 
-final img = File(image.path);
-this.proimg = img;
+    final img = File(image.path);
+    this.proimg = img;
   }
 
   //register

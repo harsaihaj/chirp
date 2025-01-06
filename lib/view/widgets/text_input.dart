@@ -10,10 +10,10 @@ class TextInputField extends StatelessWidget {
 
   TextInputField(
       {super.key,
-      required this.controller,
-      required this.myLabelText,
-      required this.myIcon,
-      this.toHide = false,
+        required this.controller,
+        required this.myLabelText,
+        required this.myIcon,
+        this.toHide = false,
       });
 
   @override
@@ -29,6 +29,7 @@ class TextInputField extends StatelessWidget {
           borderSide: const BorderSide(color: borderColor),
         ),
         focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(20),
           borderSide: const BorderSide(color: borderColor),
         ),
       ),
