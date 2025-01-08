@@ -1,3 +1,4 @@
+import 'package:chirp/controller/auth_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:glitcheffect/glitcheffect.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -38,7 +39,9 @@ class LoginScreen extends StatelessWidget {
             Container(
                 width: MediaQuery.of(context).size.width/3,
 
-                child: ElevatedButton(onPressed: (){}, child: Text("Login")))
+                child: ElevatedButton(onPressed: (){
+                  AuthController.instance.login(_emailcontroller.text, _passwordcontroller.text);
+                }, child: Text("Login")))
 
           ],
         ),
